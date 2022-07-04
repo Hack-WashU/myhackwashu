@@ -1,6 +1,7 @@
 echo "checking updates..."
 pip install -r requirements.txt
 echo "checking updates...done"
+sleep 5s
 echo "migrating db..."
 python manage.py makemigrations
 python manage.py migrate sessions

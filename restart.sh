@@ -3,6 +3,7 @@
 echo "checking updates..."
 ./env/bin/pip install -r requirements.txt
 echo "checking updates...done"
+sleep 5s
 echo "migrating db..."
 ./env/bin/python manage.py makemigrations
 ./env/bin/python manage.py migrate sessions
