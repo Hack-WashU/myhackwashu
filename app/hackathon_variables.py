@@ -61,14 +61,14 @@ REGEX_HACKATHON_ORGANIZER_EMAIL = '^.*@hackupc\.com$'
 HACKATHON_ORGANIZER_EMAILS = ['jackheuberger@wustl.edu']
 
 # (OPTIONAL) Send 500 errors to email while on production mode
-HACKATHON_DEV_EMAILS = ['devs@hackupc.com', ]
+HACKATHON_DEV_EMAILS = ['organizer@hackwashu.io', ]
 
 # Baggage configuration
-BAGGAGE_ENABLED = True
-BAGGAGE_PICTURE = True
+BAGGAGE_ENABLED = False
+BAGGAGE_PICTURE = False
 
 # Reimbursement configuration
-REIMBURSEMENT_ENABLED = True
+REIMBURSEMENT_ENABLED = False
 DEFAULT_REIMBURSEMENT_AMOUNT = 100
 CURRENCY = '€'
 REIMBURSEMENT_EXPIRY_DAYS = 5
